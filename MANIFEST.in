@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include payment_indonesia *.css
+recursive-include payment_indonesia *.csv
+recursive-include payment_indonesia *.html
+recursive-include payment_indonesia *.ico
+recursive-include payment_indonesia *.js
+recursive-include payment_indonesia *.json
+recursive-include payment_indonesia *.md
+recursive-include payment_indonesia *.png
+recursive-include payment_indonesia *.py
+recursive-include payment_indonesia *.svg
+recursive-include payment_indonesia *.txt
+recursive-exclude payment_indonesia *.pyc
