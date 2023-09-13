@@ -7,9 +7,10 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "bca_tab",
+  "is_mode_tab",
   "section_break_zu7uo",
   "is_mode_api_bca",
+  "bca_tab",
   "section_break_u9xuj",
   "production_column",
   "prod_corporate_id",
@@ -29,7 +30,9 @@
   "sandbox_api_keys",
   "sandbox_apikey",
   "sandbox_apikey_secret_key",
-  "bri_tab"
+  "bri_tab",
+  "production_section",
+  "bri_prod_apikey"
  ],
  "fields": [
   {
@@ -84,7 +87,7 @@
    "fieldname": "is_mode_api_bca",
    "fieldtype": "Select",
    "label": "Is Mode API ",
-   "options": "Sandbox\nDevelopment"
+   "options": "Sandbox\nDevelopment\nProduction"
   },
   {
    "fieldname": "prod_corporate_id",
@@ -145,12 +148,27 @@
    "fieldname": "sandbox_host",
    "fieldtype": "Data",
    "label": "Host"
+  },
+  {
+   "fieldname": "production_section",
+   "fieldtype": "Section Break",
+   "label": "Production"
+  },
+  {
+   "fieldname": "is_mode_tab",
+   "fieldtype": "Tab Break",
+   "label": "Is Mode"
+  },
+  {
+   "fieldname": "bri_prod_apikey",
+   "fieldtype": "Data",
+   "label": "APi Key"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-08-23 12:53:06.187319",
+ "modified": "2023-09-13 07:57:15.325747",
  "modified_by": "Administrator",
  "module": "Payment Indonesia",
  "name": "Setting",
