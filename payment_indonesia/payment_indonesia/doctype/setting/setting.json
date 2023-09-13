@@ -1,0 +1,176 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-23 11:37:03.476630",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bca_tab",
+  "section_break_zu7uo",
+  "is_mode_api_bca",
+  "section_break_u9xuj",
+  "production_column",
+  "prod_corporate_id",
+  "prod_host",
+  "oauth_credentials",
+  "prod_outh_order_id",
+  "prod_outh_secret_key",
+  "api_keys",
+  "prod_apikey",
+  "prod_apikey_secret_key",
+  "column_break_okvbd",
+  "sandbox_corporate_id",
+  "sandbox_host",
+  "sandbox_oauth_credentials",
+  "sandbox_outh_order_id",
+  "sandbox_outh_secret_key",
+  "sandbox_api_keys",
+  "sandbox_apikey",
+  "sandbox_apikey_secret_key",
+  "bri_tab"
+ ],
+ "fields": [
+  {
+   "fieldname": "bca_tab",
+   "fieldtype": "Tab Break",
+   "label": "BCA"
+  },
+  {
+   "fieldname": "section_break_zu7uo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_u9xuj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "oauth_credentials",
+   "fieldtype": "Heading",
+   "label": "OAUTH CREDENTIALS"
+  },
+  {
+   "fieldname": "prod_outh_order_id",
+   "fieldtype": "Data",
+   "label": "Order ID"
+  },
+  {
+   "fieldname": "prod_outh_secret_key",
+   "fieldtype": "Data",
+   "label": "Secret Key"
+  },
+  {
+   "fieldname": "api_keys",
+   "fieldtype": "Heading",
+   "label": " API KEYS"
+  },
+  {
+   "fieldname": "prod_apikey",
+   "fieldtype": "Data",
+   "label": "API Key"
+  },
+  {
+   "fieldname": "prod_apikey_secret_key",
+   "fieldtype": "Data",
+   "label": "Secret Key"
+  },
+  {
+   "fieldname": "bri_tab",
+   "fieldtype": "Tab Break",
+   "label": "BRI"
+  },
+  {
+   "fieldname": "is_mode_api_bca",
+   "fieldtype": "Select",
+   "label": "Is Mode API ",
+   "options": "Sandbox\nDevelopment"
+  },
+  {
+   "fieldname": "prod_corporate_id",
+   "fieldtype": "Data",
+   "label": "Corporate ID"
+  },
+  {
+   "fieldname": "column_break_okvbd",
+   "fieldtype": "Column Break",
+   "label": "Sanbox"
+  },
+  {
+   "fieldname": "production_column",
+   "fieldtype": "Column Break",
+   "label": "Production"
+  },
+  {
+   "fieldname": "sandbox_corporate_id",
+   "fieldtype": "Data",
+   "label": "Corporate ID"
+  },
+  {
+   "fieldname": "sandbox_oauth_credentials",
+   "fieldtype": "Heading",
+   "label": "OAUTH CREDENTIALS"
+  },
+  {
+   "fieldname": "sandbox_outh_order_id",
+   "fieldtype": "Data",
+   "label": "Order ID"
+  },
+  {
+   "fieldname": "sandbox_outh_secret_key",
+   "fieldtype": "Data",
+   "label": "Secret Key"
+  },
+  {
+   "fieldname": "sandbox_api_keys",
+   "fieldtype": "Heading",
+   "label": " API KEYS"
+  },
+  {
+   "fieldname": "sandbox_apikey",
+   "fieldtype": "Data",
+   "label": "API Key"
+  },
+  {
+   "fieldname": "sandbox_apikey_secret_key",
+   "fieldtype": "Data",
+   "label": "Secret Key"
+  },
+  {
+   "fieldname": "prod_host",
+   "fieldtype": "Data",
+   "label": "Host"
+  },
+  {
+   "fieldname": "sandbox_host",
+   "fieldtype": "Data",
+   "label": "Host"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-08-23 12:53:06.187319",
+ "modified_by": "Administrator",
+ "module": "Payment Indonesia",
+ "name": "Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
